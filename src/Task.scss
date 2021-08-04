@@ -1,0 +1,58 @@
+.task-container{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin:25px auto;
+    background-color: rgb(207, 207, 238);
+}
+
+.input-container{
+    display: grid;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(207, 207, 238);
+    margin: auto;
+
+    .label{
+        display: grid;
+        justify-content: flex-start;
+    }
+    .date-time{
+        display: flex;
+
+        .date{
+            display: grid;
+            &:first-child{
+                margin-right: 35px;
+            }
+        }
+    }
+
+    
+
+    .input{
+        height: 25px;
+
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+
+        .delete{
+            position: relative;
+            right: 180px;
+            top: 20px;
+        }
+        .button1{
+            width: 100px;
+            height: 40px;
+        }
+        .button2{
+            width: 100px;
+            height: 40px;
+            background-color: rgb(174, 243, 243);
+        }
+    }
+}
