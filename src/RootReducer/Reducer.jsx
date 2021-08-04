@@ -9,8 +9,6 @@ export default function (state = initialState, action) {
     const { type, payload } = action;
     switch (type) {
         case constants.ADD_TASK:
-            // const taskData = payload
-            // taskData.id = task.length
             return {
                 ...state,
                 showTaskForm: payload,
