@@ -2,6 +2,10 @@
   "name": "taskassign",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.17.0",
+    "npm": "7.20.3"
+  },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@material-ui/icons": "^4.11.2",
